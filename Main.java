@@ -16,6 +16,7 @@ public class Main {
 		list.Insert_last(488);
 		list.Insert_last(123);
 		list.Insert_last(456);
+		list.Insert_last(010);
 		System.out.println(list);
 		list.InsertCycle(78);
 
