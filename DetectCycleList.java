@@ -6,6 +6,7 @@ public class DetectCycleList
 	 public DetectCycleList()
 	 {
 		 Node head=null;
+		 //Akshay
 	 }
 	
 	public void Insert_last(int data)
