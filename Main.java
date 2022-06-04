@@ -4,6 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		DetectCycleList list = new DetectCycleList();
+		list.Insert_last(8);
 		list.Insert_last(5);
 		list.Insert_last(78);
 		list.Insert_last(69);
