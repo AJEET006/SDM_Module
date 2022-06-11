@@ -4,7 +4,6 @@ public class Main {
 	public static void main(String[] args) {
 
 		DetectCycleList list = new DetectCycleList();
-		list.Insert_last(8);
 		list.Insert_last(5);
 		list.Insert_last(78);
 		list.Insert_last(69);
@@ -16,7 +15,6 @@ public class Main {
 		list.Insert_last(488);
 		list.Insert_last(123);
 		list.Insert_last(456);
-		list.Insert_last(010);
 		System.out.println(list);
 		list.InsertCycle(78);
 

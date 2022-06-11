@@ -1,12 +1,11 @@
 package POG_LLHasACycle;
-//POG Program Detect CYCLE
+
 public class DetectCycleList
 {
 	 Node head;
 	 public DetectCycleList()
 	 {
 		 Node head=null;
-		 //Akshay
 	 }
 	
 	public void Insert_last(int data)
@@ -24,6 +23,8 @@ public class DetectCycleList
 		}
 		it.next = new_node;
 		return;
+	}
+	
 	
 	public void InsertCycle(int data)
 	{
